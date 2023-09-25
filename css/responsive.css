@@ -44,7 +44,7 @@
   /* Media queries for extra small screens */
   @media (max-width: 479px) {
     section {
-      padding: 20px;
+      padding: 30px;
     }
   
     header .logo {
@@ -60,11 +60,11 @@
     }
   
     .content .textbox a {
-      padding: 3px 8px;
+      padding: 1px 5px;
     }
   
     .content .imgbox img {
-      max-width: 160px;
+      max-width: 130px;
     }
   
     .thumb {
@@ -75,11 +75,9 @@
       margin: 0 2px;
     }
   
-    .sci li a {
-      transform: scale(0.3);
-    }
+ 
   
     .circle {
-      clip-path: circle(300px at right 800px);
+      clip-path: circle(200px at right 800px);
     }
   }
