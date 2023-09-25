@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    background-color: #fff;
+}
+header{
+    position: absolute;
+    top: 0 ; 
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 20px 100px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+  
+    max-width: 60px;
+}
+header ul {
+    display: flex;
+
+}
+
+header ul li {
+    list-style: none;
+}
+header ul li a {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 400;
+    color: #333;
+}
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textbox{
+    max-width: 600px;
+}
+.content .textbox h2{
+    color: #333;
+    font-weight: 700 ;
+    font-size: 40px;
+
+}
+
+.content .textbox h2 span{
+    color: #017143;
+    font-weight: 900;
+}
+.content .textbox p {
+    color: #333;
+}
+.content .textbox a {
+   display: inline-block;
+   background-color: #017143;
+   color: #fff ;
+   text-decoration: none;
+   padding: 5px 15px;
+   border-radius: 40px;
+   margin-top: 20px;
+
+}
+.content .imgbox{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px ;
+    margin-top: 50px;
+    
+}
+.content .imgbox img {
+    max-width: 280px;
+}
+.thumb{
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+    display: flex;
+    
+}
+.thumb li {
+    list-style: none;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+.thumb li:hover{
+    transform: translateY(-15px);
+}
+.thumb li img {
+    max-width: 60px;
+}
+
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #017143;
+    clip-path: circle(500px at right 800px);
+   
+}
