@@ -3,51 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>product lannding page </title>
+    <title>product landing page </title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <!-- <link rel="shortcut Icon" href="images/logo.png"> -->
+<script defer src="js/script.js"></script>
 </head>
 <body>
-    <section>
-        <div class="circle"></div>
-        <header>
-            <a href="#" ><img  src="images/logo.png" class="logo" alt=""></a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </header>
-        <div class="content">
-            <div class="textbox">
-                <h2>
-                    It,s not just a Coffee <br/>It,s <span>Starbucks</span>
-                </h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae esse sunt maiores autem hic quod quos dignissimos iusto eveniet expedita perferendis nam totam nisi reiciendis magnam odit, voluptas provident 
-                </p>
-                <a href="#">Learn More</a>
-            </div>
-            <div class="imgbox">
-                <img src="images/img1.png" class="starbucks" alt="">
-            </div>
-        </div>
-        <ul class="thumb">
-            <li><img src="images/thumb1.png" onclick="imgSlider('images/img1.png') ; changeCircleColor('#017143')" alt=""></li>
-            <li><img src="images/thumb2.png" onclick="imgSlider('images/img2.png') ; changeCircleColor('#eb7495')" alt=""></li>
-            <li><img src="images/thumb3.png" onclick="imgSlider('images/img3.png') ; changeCircleColor('#d752b1')" alt=""></li>
+<header>
+    <nav>
+        <h1>Company Logo</h1>
+        <ul>
+            <li><a href="#">Home</a> </li>
+           <li>
+
+               <a href="#">About</a>
+           </li>
+           <li>
+
+               <a href="#">Products</a>
+           </li>
+           <li>
+
+               <a href="#">Contact</a>
+           </li>
         </ul>
-       
+        <div class="mobile_menu_icon">
+            <span class="mobile_menu_icon_top"></span>
+            <span class="mobile_menu_icon_middle"></span>
+            <span class="mobile_menu_icon_bottom"></span>
+        </div>
+    </nav>
+</header>
+<section class="slant">
+<section class="caption_section">
+<h1>Ready for online Shopping?</h1>
+<h2>We guarantee the best shopping experience with <br/> great discount on any items you buy</h2>
+<button>Start Shopping</button>
+</section>
+</section>
+<section class="main_section">
+<div>
+    <h1>iPhone 14 Pro Max</h1>
+    <h2>256 GB</h2>
+    <h3>$999 <span>$1,100</span></h3>
+    <p>6.7 inch Super Retina XDR</p>
+    <p>Always-On and Promotion</p>
+    <p>Dynamic Island</p>
+    <p>48MP Main Camera</p>
+    <p>Cenematic Mode</p>
+    <a href="#">More info...</a>
+</div>
+<div>
+    <img class="phone" height="80%"  src="images/iphone13.png"/>
+</div>
+</section>
+<section class="product_services">
+<div>
+    <img src="images/icare.png">
+    <h4>iCare</h4>
+    <p>The extended warranty exclusively available at iStore</p>
+    <button>Learn More</button>
+</div>
+<div>
+    <img src="images/tradein.png"> 
+    <h4>Trade-in</h4>
+    <p>Trade in your previously loved dveice and get a discount on your new one.</p>
+    <button>Learn More</button>
+</div>
+<div>
+    <img src="images/shippping.png"> 
+    <h4>Free Shipping</h4>
+    <p>Get free shipping or pick up when you but online</p>
+    <button>Learn More</button>
+</div>
+</section>
+    <h1 class="suggested_products_header">
+You may also like
+    </h1>
+    <section class="other_products">
+<div>
+    <img src='images/iphone10.jpg'>
+    <h4>iPhone 10</h4>
+</div>
+<div>
+    <img src='images/iphone11.jpg'>
+    <h4>iPhone 11</h4>
+</div>
+<div>
+    <img src='images/iphone12.jpg'>
+    <h4>iPhone 12</h4>
+</div>
+<div>
+    <img src='images/iphone13.png'>
+    <h4>iPhone 13</h4>
+</div>
     </section>
-    <script type="text/javascript">
-function imgSlider(src){
-    document.querySelector(".starbucks").src = src
-}
-function changeCircleColor(color){
-    const circle = document.querySelector(".circle") ;
-    circle.style.background = color
-}
-    </script>
+  <footer>
+<div>
+    <h4>Products</h4>
+    <a href="#">Shop iPad</a>
+    <a href="#">Shop iPhone/a>
+    <a href="#">Shop Mac</a>
+    <a href="#">Shop Accessories</a>
+</div>
+
+<div>
+    <h4>Policies</h4>
+    <a href="#">Terms of service</a>
+    <a href="#">Refund Policy</a>
+    <a href="#">Shipping Policy</a>
+    <a href="#">Privacy Policy</a>
+</div>
+
+<div>
+    <h4>Learn</h4>
+    <a href="#">Technical Support</a>
+    <a href="#">Repairs</a>
+    <a href="#">iCare</a>
+    <a href="#">Device Financing</a>
+    <a href="#">Store Locator</a>
+</div>
+
+<div>
+    <p>&copy; 2023 | Company Name | All rights reserved</p>
+    <div>
+        
+    </div>
+    <img src="images/fb.png">
+    <img src="images/ig.png">
+    <img src="images/ln.png">
+    <img src="images/twitter.png">
+</div>
+  </footer>
 </body>
 </html>
