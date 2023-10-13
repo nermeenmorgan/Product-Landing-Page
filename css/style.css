@@ -237,7 +237,6 @@ footer{
     justify-content: space-around;
 }
 footer h4{
-
     padding-bottom: 6px;
     font-size: 1.5em;
 
@@ -264,14 +263,13 @@ footer img:hover{
         text-align: center;
         display: block;
     }
-    footer h4{
-        margin-top: 15px;
-        margin-right: 20px;
-    }
-    footer img{
-        margin-top: 19px;
-    }
-   
+   footer h4{
+    margin-top: 5%;
+   }
+   footer img{
+    margin-top: 5%;
+
+   }
 
     .product_services {
 
